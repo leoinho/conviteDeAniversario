@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
 body{
-    
+    /* font-family: 'Indie Flower' ; */
+    font-family: 'Courgette' ;
     background-repeat: no-repeat, repeat;
     height: 500px;
     width: 100%;
@@ -31,14 +35,14 @@ section h3{
 }
 
 .titulo{
-    margin: auto;
+    margin: -26px 5px 34px 5px;
     top: 0;
     position: absolute;
     display: flex;
     /* justify-content: center; */
     flex-direction: row;
     
-    width: 350px;
+    width: 320px;
     height: 200px;
 }
 .um{
@@ -46,15 +50,15 @@ section h3{
     height: 88px;
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: -3px;
 }
 .titulo .texto{
     margin: 0;
-    font-size: 33px;
+    font-size: 26px;
     position: absolute;
     bottom: 29px;
     color: black;
-    left: 66px;
+    left: 60px;
 }
 .nome1{
     display: block;
@@ -78,16 +82,24 @@ section h3{
 }
 .texto h4 {
     color: black;
+    margin: 15px 5px -3px 6px;
 }
 .texto p {
     color: black;
     text-align: justify;
-    margin: 8px 4px 6px 16px;
+    margin: 13px 5px 0px 5px;
+    font-size: 12px;
 }
 header .img{
     height: 600px;
     width: 400px;
     z-index: 2;
+}
+.coisinha{
+    font-size: 12px;
+    color: black;
+    text-align: justify;
+    margin: 13px 5px 0px 5px;
 }
 .estrelinha1{
     opacity: 0.3;
@@ -112,7 +124,7 @@ header .img{
     position: relative;
     animation: estrelinha3 4s infinite;
     animation-timing-function: linear;
-    left: 200px;
+    left: 20px;
     bottom: 0;
 }
 .estrelinha4{
@@ -121,7 +133,7 @@ header .img{
     position: relative;
     animation: estrelinha4 2.8s infinite;
     animation-timing-function: linear;
-    left: 50px;
+    left: 40px;
     bottom: 0;
 }
 .estrelinha5{
@@ -130,7 +142,7 @@ header .img{
     position: relative;
     animation: estrelinha5 3.2s infinite;
     animation-timing-function: linear;
-    left: 150px;
+    left: 97px;
     bottom: 0;
 }
 .estrelinha6{
@@ -158,6 +170,7 @@ button {
 .linkContainer{
     position: relative;
     height: 110px;
+    margin: 20px 5px 25px 5px;
 }
 .linkContainer .img1{
     position: absolute;
