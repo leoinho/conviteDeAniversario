@@ -1,0 +1,229 @@
+body{
+    
+    background-repeat: no-repeat, repeat;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+header {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    /* background-image: url("../img/convite.jpg"); */
+    background-size: 100% 100%;
+    height: 600px;
+    width: 400px;
+    /* background-color: blueviolet; */
+    transition: 1s
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+section h3{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.titulo{
+    margin: auto;
+    top: 0;
+    position: absolute;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    
+    width: 350px;
+    height: 200px;
+}
+.um{
+    width: 88px;
+    height: 88px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.titulo .texto{
+    margin: 0;
+    font-size: 33px;
+    position: absolute;
+    bottom: 29px;
+    color: black;
+    left: 66px;
+}
+.nome1{
+    display: block;
+    right: 0;
+    top: 0;
+    width: 196px;
+    position: absolute;
+}
+.nome2{
+    display: none;
+    right: 0;
+    top: 0;
+    width: 196px;
+    position: absolute;
+}
+.texto {
+ 
+    text-align: center;
+    color: blueviolet;
+    
+}
+.texto h4 {
+    color: black;
+}
+.texto p {
+    color: black;
+    text-align: justify;
+    margin: 8px 4px 6px 16px;
+}
+header .img{
+    height: 600px;
+    width: 400px;
+    z-index: 2;
+}
+.estrelinha1{
+    opacity: 0.3;
+    width: 40px;
+    position: relative;
+    animation: estrelinha1 3s infinite;
+    animation-timing-function: linear;
+    bottom: 0;
+}
+.estrelinha2{
+    opacity: 0.3;
+    width: 40px;
+    position: relative;
+    animation: estrelinha2 5s infinite;
+    animation-timing-function: linear;
+    left: 50px;
+    bottom: 0;
+}
+.estrelinha3{
+    opacity: 0.3;
+    width: 40px;
+    position: relative;
+    animation: estrelinha3 4s infinite;
+    animation-timing-function: linear;
+    left: 200px;
+    bottom: 0;
+}
+.estrelinha4{
+    opacity: 0.3;
+    width: 40px;
+    position: relative;
+    animation: estrelinha4 2.8s infinite;
+    animation-timing-function: linear;
+    left: 50px;
+    bottom: 0;
+}
+.estrelinha5{
+    opacity: 0.3;
+    width: 40px;
+    position: relative;
+    animation: estrelinha5 3.2s infinite;
+    animation-timing-function: linear;
+    left: 150px;
+    bottom: 0;
+}
+.estrelinha6{
+    opacity: 0.3;
+    width: 40px;
+    position: relative;
+    animation: estrelinha6 2.5s infinite;
+    animation-timing-function: linear;
+    left: 10px;
+    bottom: 0;
+    color: aqua;
+}
+iframe {
+    width: 100%;
+}
+button {
+    border-radius: 20px;
+    color: blueviolet;
+    background-color: white
+}
+.form {
+    z-index: 3;
+}
+
+.linkContainer{
+    position: relative;
+    height: 110px;
+}
+.linkContainer .img1{
+    position: absolute;
+    left: 39px;
+    width: 117px;
+}
+.linkContainer .img2{
+    display: block;
+    position: absolute;
+    width: 129px;
+    right: 4px;
+}
+.linkContainer .img3{
+    display: none;
+    position: absolute;
+    width: 129px;
+    right: 4px;
+}
+h2{
+    margin: auto;
+}
+@keyframes estrelinha1 {
+    from {top: 510px;}
+    to {top: 0px;}
+}
+@keyframes estrelinha2 {
+    from {top: 510px;}
+    to {top: 0px;}
+}
+@keyframes estrelinha3 {
+    from {top: 510px;}
+    to {top: 0px;}
+}
+@keyframes estrelinha4 {
+    from {top: 510px;}
+    to {top: 0px;}
+}
+@keyframes estrelinha5 {
+    from {top: 510px;}
+    to {top: 0px;}
+}
+@keyframes estrelinha6 {
+    from {top: 510px;}
+    to {top: 0px;}
+}
+
+@media (max-width:600px){
+    body {
+        
+        margin: auto;
+    }
+    .titulo{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .titulo h1{
+        color: blueviolet;
+        
+        margin: auto
+    }
+    .texto {
+        
+        bottom: -25px;
+        
+    }
+   
+   
+}
